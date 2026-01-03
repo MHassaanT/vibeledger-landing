@@ -397,11 +397,8 @@ export default function VibeLedgerLanding() {
             <p className="text-gray-600 mb-4">
               Voice-based ledger for small businesses
             </p>
-            <p className="text-sm text-gray-600 mb-4">
-              Founded by Hassan Tahir and Amaad Ali
-            </p>
             <div className="text-sm text-gray-600">
-              <p>Contact: info@vibledger.com</p>
+              <p>Contact: misterhassan58@gmail.com</p>
             </div>
           </div>
         </div>
