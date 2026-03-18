@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import Script from 'next/script';
 
 export default function VibeLedgerLanding() {
   const [formData, setFormData] = useState({
@@ -52,6 +53,11 @@ export default function VibeLedgerLanding() {
   };
 
   return (
+    <Script 
+      src="https://morphical.vercel.app/widget.js" 
+      data-api-key="mk_live_0e6b311f81abd12a65d38b86019db724" 
+      strategy="afterInteractive" 
+    />
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-100">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
@@ -77,15 +83,15 @@ export default function VibeLedgerLanding() {
           <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium tracking-wide text-blue-700 uppercase bg-blue-50 rounded-full">
             Private Pilot Now Open
           </span>
-          <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 mb-6 tracking-tight leading-[1.1]">
+          <h1 data-morph="hero" className="text-5xl md:text-7xl font-extrabold text-slate-900 mb-6 tracking-tight leading-[1.1]">
             Record your ledger <br />
             <span className="text-blue-600 font-black italic">with your voice.</span>
           </h1>
-          <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p data-morph="subtitle" className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
             The world’s simplest way for small businesses to track sales and expenses. No typing, no complexity—just speak.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a 
+            <a data-morph="cta" 
               href="#early-access" 
               className="w-full sm:w-auto px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold text-lg hover:shadow-xl hover:-translate-y-1 transition-all"
             >
