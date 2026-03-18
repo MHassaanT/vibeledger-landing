@@ -49,7 +49,7 @@ export default function VibeLedgerLanding() {
     <main className="min-h-screen bg-slate-50 overflow-x-hidden">
       {/* 2. Placed your Morphical Widget Script here */}
       <Script 
-        src="https://morphical.vercel.app/widget.js" 
+        src="https://morphical.vercel.app/widget.js?v=2"
         data-api-key="mk_live_0e6b311f81abd12a65d38b86019db724" 
         strategy="afterInteractive" 
       />
