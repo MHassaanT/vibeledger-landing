@@ -53,7 +53,9 @@ export default function VibeLedgerLanding() {
         data-api-key="mk_live_0e6b311f81abd12a65d38b86019db724" 
         strategy="afterInteractive" 
       />
-
+      {/*Customer Support Agent Widget Script*/}
+      <script src="http://localhost:4000/widget.js" data-tenant-id="0b1b31b0-0092-453c-ae07-d6f3ffcc596a"></script>
+  
       {/* Navigation */}
       <nav className="flex justify-between items-center px-6 py-6 max-w-7xl mx-auto relative z-10">
         <div className="flex items-center gap-2">
