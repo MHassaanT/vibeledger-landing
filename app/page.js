@@ -54,7 +54,7 @@ export default function VibeLedgerLanding() {
         strategy="afterInteractive" 
       />
       {/*Customer Support Agent Widget Script*/}
-      <script src="http://localhost:4000/widget.js" data-tenant-id="0b1b31b0-0092-453c-ae07-d6f3ffcc596a"></script>
+      <script src="https://enterpriseaiworkflowplatform-production.up.railway.app/widget.js" data-tenant-id="0b1b31b0-0092-453c-ae07-d6f3ffcc596a"></script>
   
       {/* Navigation */}
       <nav className="flex justify-between items-center px-6 py-6 max-w-7xl mx-auto relative z-10">
