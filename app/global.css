@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-white;
+}
+
+a {
+  @apply text-blue-400 hover:text-blue-300;
+}
+
+button {
+  @apply bg-blue-600 text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50;
+}
+
+.header {
+  @apply bg-gray-800 p-6 shadow-lg;
+}
+
+.footer {
+  @apply bg-gray-800 p-6 mt-10;
+}
+
+.card {
+  @apply bg-gray-700 rounded-lg p-4 shadow-md transition-transform transform hover:scale-105;
+}
+
+.card-title {
+  @apply text-xl font-bold mb-2;
+}
+
+.card-content {
+  @apply text-gray-300;
+}
+
+.section {
+  @apply py-12 px-4;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-6 text-center;
+}
+
+.section-description {
+  @apply text-lg text-gray-400 text-center mb-8;
+}
+
+.input {
+  @apply bg-gray-800 border border-gray-600 rounded-lg p-3 text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.textarea {
+  @apply bg-gray-800 border border-gray-600 rounded-lg p-3 text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.card:hover {
+  @apply bg-gray-600;
+}
