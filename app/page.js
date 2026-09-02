@@ -52,7 +52,7 @@ export default function VibeLedgerLanding() {
         data-api-key="mk_live_0e6b311f81abd12a65d38b86019db724" 
         strategy="afterInteractive" 
       />
-      <script src="https://enterpriseaiworkflowplatform-production.up.railway.app/widget.js" data-tenant-id="b6630785-81f9-41f0-9f8b-28a4d4c4db5b"></script>
+      <script src="https://enterpriseaiworkflowplatform-production.up.railway.app/widget.js" data-tenant-id="2c2d0369-44ce-46c3-a197-4c976e498462"></script>
   
       <nav className="flex justify-between items-center px-6 py-6 max-w-7xl mx-auto relative z-10">
         <div className="flex items-center gap-2">
